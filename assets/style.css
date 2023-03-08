@@ -18,6 +18,11 @@ header{
     background-color: #FF6900;
     color: white;
     padding: .5rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
 header a{
     color: white;
@@ -32,6 +37,9 @@ header img{
     height: 1.5rem;
 }
 /* main */
+main{
+    margin-top: 3rem;
+}
 .shop-item{
     width: calc(100% / 3 - 1rem);
     margin-top: 2.5rem;
