@@ -1,0 +1,33 @@
+/* reset */
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+/* general settings */
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+nav, main{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* header */
+header{
+    background-color: #FF6900;
+    color: white;
+    padding: .5rem 0;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    height: 1.5rem;
+}
